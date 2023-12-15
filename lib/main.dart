@@ -1,4 +1,5 @@
 import 'package:chat_app/view/screens/home/home_screen.dart';
+import 'package:chat_app/view/util/colors.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,10 +14,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Chat App',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+      theme: ThemeData.dark().copyWith(
+        scaffoldBackgroundColor: backgroundColor,
       ),
+      debugShowCheckedModeBanner: false,
       home: const HomeScreen(),
     );
   }
