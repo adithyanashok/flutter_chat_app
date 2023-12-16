@@ -1,6 +1,5 @@
 import 'package:chat_app/view/screens/chat/widgets/chats.dart';
 import 'package:chat_app/view/util/colors.dart';
-import 'package:chat_app/view/util/info.dart';
 import 'package:flutter/material.dart';
 
 class MobileChatScreen extends StatelessWidget {

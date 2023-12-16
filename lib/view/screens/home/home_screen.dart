@@ -1,4 +1,5 @@
 import 'package:chat_app/view/screens/home/widget/chatlist.dart';
+import 'package:chat_app/view/screens/updates/updates_screen.dart';
 import 'package:chat_app/view/util/colors.dart';
 import 'package:chat_app/view/widgets/floating_action_button.dart';
 import 'package:flutter/material.dart';
@@ -60,7 +61,7 @@ class HomeScreen extends StatelessWidget {
         body: const TabBarView(
           children: [
             ChatList(),
-            ChatList(),
+            UpdatesScreen(),
             ChatList(),
           ],
         ),

@@ -120,3 +120,65 @@ const messages = [
     "time": "11:20 am",
   },
 ];
+
+const status = [
+  {
+    "profilePic":
+        "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
+    "name": "Me",
+    "isMe": true,
+  },
+  {
+    "profilePic":
+        "https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg",
+    "name": "Elon",
+    "isMe": false,
+  },
+  {
+    "profilePic":
+        "https://www.socialketchup.in/wp-content/uploads/2020/05/fi-vill-JOHN-DOE.jpg",
+    "name": "John Doe",
+    "isMe": false,
+  },
+  {
+    "profilePic":
+        "https://media.cntraveler.com/photos/60596b398f4452dac88c59f8/16:9/w_3999,h_2249,c_limit/MtFuji-GettyImages-959111140.jpg",
+    "name": "Steve",
+    "isMe": false,
+  },
+  {
+    "profilePic":
+        "https://pbs.twimg.com/profile_images/1419974913260232732/Cy_CUavB.jpg",
+    "name": "Bill",
+    "isMe": false,
+  },
+  {
+    "profilePic":
+        "https://uploads.dailydot.com/2018/10/olli-the-polite-cat.jpg?auto=compress%2Cformat&ixlib=php-3.3.0",
+    "name": "Mark",
+    "isMe": false,
+  },
+  {
+    "profilePic":
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
+    "name": "Joseph",
+    "isMe": false,
+  },
+];
+
+const channels = [
+  {
+    "channelImage": "assets/images/channel2.jpeg",
+    "channelName": "Indian Cricket Team",
+    "lastImage": 'assets/images/channel1.jpeg',
+    "lastMessage":
+        'Time for Semi-Final 2 for the #ACCU19MensAsiaCup 👌Bangladesh win the toss and elect to bowl.WATCH LIVE 📺https://www.youtube.com/live/u2vJgzNAiqo?feature=shared',
+  },
+  {
+    "channelImage": "assets/images/channel3.jpeg",
+    "channelName": "Chennai Super Kings",
+    "lastImage": 'assets/images/channel3last.jpeg',
+    "lastMessage":
+        "Ready for some Super bids? ⏳🦁React with Your Choice for CSK's Auction Slot! Who would you pick? 🥳Bowler - All-Rounder - Batsman - 😄",
+  },
+];
